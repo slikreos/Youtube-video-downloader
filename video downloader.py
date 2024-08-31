@@ -1,6 +1,6 @@
 from pytube import YouTube
 
-query = input("Enter what you would like to download ")
+query = input("Enter what video you would like to download?")
 video = YouTube.search(query)
 
 # Print out the search results
